@@ -12,9 +12,21 @@ window.onload = function(event) {
         if (Array.from(circle.classList).indexOf("on") === -1) {
             circle.classList.remove("off");
             circle.classList.add("on");
+            
+            sun.classList.remove("visible");
+            sun.classList.add("hidden");
+            
+            moon.classList.remove("hidden");
+            moon.classList.add("visible");
         } else {
             circle.classList.remove("on");
             circle.classList.add("off");
+
+			moon.classList.remove("visible");
+            moon.classList.add("hidden");
+            
+            sun.classList.remove("hidden");
+            sun.classList.add("visible");
         }
     });
 };
