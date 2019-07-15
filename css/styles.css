@@ -11,6 +11,14 @@ body {
     background-color: lightblue;
 }
 
+.off {
+    transform: translate(0px);
+}
+
+.on {
+    transform: translate(60px);
+}
+
 .night {
     background-color: #000011;
 }
@@ -28,7 +36,7 @@ body {
     position: absolute;
     top: 70%;
     left: calc(50% - 50px);
-    
+
     margin: 0 auto;
     border: 4px #CECECE solid;
     border-radius: 30px;
