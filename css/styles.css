@@ -7,6 +7,16 @@ body {
     transition: all 0.3s linear;
 }
 
+h1 {
+    position: absolute;
+    top: 4%;
+    
+    min-width: 100%;
+    text-align: center;
+    
+    transition: all 0.3s linear;
+}
+
 .celestial {
     position: absolute;
     top: calc(50% - 150px);
@@ -17,6 +27,10 @@ body {
 
 .day {
     background-color: lightblue;
+}
+
+.false {
+    color: white;
 }
 
 .hidden {
@@ -33,6 +47,10 @@ body {
 
 .night {
     background-color: #000011;
+}
+
+.true {
+    color: indianred;
 }
 
 .visible {
