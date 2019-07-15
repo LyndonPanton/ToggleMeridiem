@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    transition: all 0.3s linear;
+}
+
+.day {
+    background-color: lightblue;
+}
+
+.night {
+    background-color: #000011;
+}
