@@ -18,6 +18,11 @@ window.onload = function(event) {
             
             moon.classList.remove("hidden");
             moon.classList.add("visible");
+            
+            h1.classList.remove("true");
+            h1.classList.add("false");
+            
+            h1.textContent = "Night";
         } else {
             circle.classList.remove("on");
             circle.classList.add("off");
@@ -27,6 +32,11 @@ window.onload = function(event) {
             
             sun.classList.remove("hidden");
             sun.classList.add("visible");
+            
+            h1.classList.remove("false");
+            h1.classList.add("true");
+            
+            h1.textContent = "Day";
         }
     });
 };
