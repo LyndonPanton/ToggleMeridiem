@@ -14,3 +14,26 @@ body {
 .night {
     background-color: #000011;
 }
+
+#circle {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #DFDFDF;
+    
+    transition: all 0.3s linear;
+}
+
+#container {
+    position: absolute;
+    top: 70%;
+    left: calc(50% - 50px);
+    
+    margin: 0 auto;
+    border: 4px #CECECE solid;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #ACACAC;
+    width: 100px;
+    height: 40px;
+    background-color: #ACACAC;
+}
