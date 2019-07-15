@@ -19,6 +19,10 @@ body {
     background-color: lightblue;
 }
 
+.hidden {
+    opacity: 0;
+}
+
 .off {
     transform: translate(0px);
 }
@@ -29,6 +33,10 @@ body {
 
 .night {
     background-color: #000011;
+}
+
+.visible {
+    opacity: 1.0;
 }
 
 #circle {
