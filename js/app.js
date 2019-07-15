@@ -13,6 +13,9 @@ window.onload = function(event) {
             circle.classList.remove("off");
             circle.classList.add("on");
             
+            body.classList.remove("day");
+            body.classList.add("night");
+            
             sun.classList.remove("visible");
             sun.classList.add("hidden");
             
@@ -26,6 +29,9 @@ window.onload = function(event) {
         } else {
             circle.classList.remove("on");
             circle.classList.add("off");
+            
+            body.classList.remove("night");
+            body.classList.add("day");
 
 			moon.classList.remove("visible");
             moon.classList.add("hidden");
